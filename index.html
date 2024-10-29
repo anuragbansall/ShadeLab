@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadeLab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="color-picker-container">
+            <div class="options">
+                <input type="color" id="color-selector">
+                <select name="" id="mode-selector">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="generate-button">Get color scheme</button>
+            </div>
+            <div id="color-pallate">
+                
+            </div>
+        </div>  
+        <p id="copy-color-popup">Color copied to clipboard</p>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
