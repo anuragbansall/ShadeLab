@@ -11,10 +11,9 @@ function getColorPallate(hex, mode) {
             `).join('');
             document.getElementById('color-pallate').innerHTML = colorPallateHtml;
 
-            // Add click event listener to the newly created color elements
             document.querySelectorAll('.color').forEach(colorElement => {
                 colorElement.addEventListener('click', function() {
-                    const hexValue = this.getAttribute('data-hex');
+                    const hexValue = this.dataset.hex;
                     copyToClipboard(hexValue);
                 });
             });
