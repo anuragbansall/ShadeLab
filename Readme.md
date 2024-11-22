@@ -45,4 +45,4 @@ Project Link: [https://github.com/anuragbansall/ShadeLab](https://github.com/anu
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/anuragbansall
-[product-screenshot]: ./assets/ShadeLab-screenshot.png
+[product-screenshot]: ./assets/product-demo.png
